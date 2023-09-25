@@ -1,0 +1,25 @@
+#filter{
+    filter: brightness(200%);
+}
+#popularAlbam{
+    display: flex;
+    gap: 1rem;
+}
+.popupmovie{
+    transition: 1s ease-in-out;
+    cursor: pointer;
+}
+.popupmovie:hover{
+    transform: scale(1.1);
+}
+img{
+    width:300px;
+    height: 200px;
+}
+.movielist{
+    display: flex;
+    gap: 1rem;
+    float: left;
+    width: 100vw;
+    overflow: auto;
+}

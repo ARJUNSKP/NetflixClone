@@ -1,0 +1,43 @@
+#login{
+    background:linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ), url(https://i.postimg.cc/3wVxSTG4/r-DJeg-QJa-Cy-Ga-Yysj2g5-XWY.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#text{
+    padding: 11.5rem 0;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 900;    
+}
+nav{
+    padding:0 9rem;
+    display: flex;
+    justify-content: space-between;
+}
+select{
+    width: 8rem;
+    height: 2.5rem;
+}
+.langulage{
+    display: flex;
+}
+@media screen and (max-width:785px) {
+    nav{
+        padding: 0 0px;
+    }
+}
+@media screen and (max-width:490px) {
+    nav{
+        padding: 0 0px;
+    }
+    .langulage{
+        display: none;
+
+    }
+}
